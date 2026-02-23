@@ -16,5 +16,6 @@ spec:
       - ref: source-commit
         with:
           check_signature: yes
+          check_author_verified: yes
         requirements:
-          - chainloop-best-practices/commit-signed
+          - chainloop-best-practices/source-commit-attestation

@@ -10,6 +10,9 @@ spec:
       - ref: source-commit
         with:
           check_signature: yes
+          check_author_verified: yes
+        requirements:
+          - chainloop-best-practices/source-commit-attestation
   policyGroups:
     - ref: slsa-checks
       with:
